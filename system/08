@@ -1,0 +1,5 @@
+/home/henriika/.ssh/authorized_keys
+
+# First created the key (ssh-keygen)
+# Then linked my own user to it (ssh-copy-id henriika@debian)
+# https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys-on-debian-10

@@ -1,0 +1,4 @@
+#!/bin/bash
+kill %[job number]
+
+#kill %programname or using kill PID

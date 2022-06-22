@@ -1,0 +1,4 @@
+#!/bin/bash
+traceroute who.int
+
+# displays and identifies network devices between you and who.int

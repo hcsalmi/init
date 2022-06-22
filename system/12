@@ -1,0 +1,8 @@
+#!/bin/bash
+sudo du -shc /var/*
+
+# du shows disk space used
+# h -> human-readable format
+# /var the path to directory you want to get the size of
+# s -> total size of specified directory
+# c -> grand total of sizes

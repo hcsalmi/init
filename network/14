@@ -1,0 +1,4 @@
+/etc/hosts
+
+# I researched online and found that this file contains the required information (relating to IP host names and addresses).
+# Found the file by searching root folders.

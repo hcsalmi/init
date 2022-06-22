@@ -1,0 +1,9 @@
+#!/bin/bash
+USERNAME=$1
+check_if_active=`pgrep -u $USERNAME`
+if [ "$check_if_active" != "$NULL" ]; then
+	pgrep -u $USERNAME | while read PID; do sudo kill -9 $PID; done
+	sudo userdel -r $USERNAME
+    echo "User has been deleted."
+echo "Script has finished."
+fi

@@ -1,0 +1,5 @@
+10.60.1.1
+
+# Traceroot list shows that this is the device that does NAT conversion
+# NAT -> translation of private IP addresses to public IP addresses
+# If you use host 10.60.1.1 you can find additional information like the name of the server (nat.hive.fi)

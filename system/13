@@ -1,0 +1,4 @@
+#!/bin/bash
+top
+
+# man top -> displays Linux processes

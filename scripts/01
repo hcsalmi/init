@@ -1,0 +1,4 @@
+#!/bin/bash
+cat /etc/passwd | cut -d ":" -f1,3,7
+
+# https://www.cyberciti.biz/faq/understanding-etcpasswd-file-format/

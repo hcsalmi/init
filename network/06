@@ -1,0 +1,4 @@
+/etc/resolv.conf
+
+# All UNIX-like operating systems contain a resolve.conf file.
+# It includes information pertaining to the system's DNS server (incl. the IP address).

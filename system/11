@@ -1,0 +1,5 @@
+#!/bin/bash
+df -h
+
+# alternatively with -H (print sizes in powers of 1000)
+# man df

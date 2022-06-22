@@ -1,0 +1,9 @@
+#!/bin/bash
+sudo tail -f /var/log/syslog &
+
+# '&' will send the process in the background
+# jobs -l to check background processes
+# Alternatively:
+# sudo tail -f /var/log/syslog
+# ctrl + Z
+# bg

@@ -1,0 +1,5 @@
+echo '46.19.122.85 intra.42.fr' >> /etc/hosts
+
+# Need to add the text 46.19.122.85 intra.42.fr into the file to reroute the address.
+# However, not possible due to lack of admin rights.
+# operator '>>' inserts text into /etc/hosts file

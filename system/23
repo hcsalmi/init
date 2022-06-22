@@ -1,0 +1,11 @@
+#Graphic session: log out -> log in as new user (upper right corner).
+
+# SSH: Go to VirtualBox setting for Debian -> Network -> advanced settings -> Port forwarding
+# -> fill in the info
+#(e.g. Youtube tutorial https://www.youtube.com/watch?v=ErzhbUusgdI for Guest port, Host port).
+# Find IP of Host (in my case Windows laptop -> ipconfig)
+# Find IP of Guest (Debian running on the same laptop -> ip addr)
+# Use the host computer command line to sign in using SSH
+# syntax: ssh -p [Host port] [username in Debian(preceeding @-sign)]@[my Windows IP]
+# e.g. ssh -p 3022 testuser@[my IP on my Windows laptop in the network]
+# exit to end session

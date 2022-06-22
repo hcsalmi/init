@@ -1,0 +1,5 @@
+#!/bin/bash
+sudo systemctl status ssh
+
+# to install SSH server (not default): sudo apt install openssh-server
+# alternative commands: sudo systemctl status ssh.service, sudo service ssh status

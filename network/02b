@@ -1,0 +1,6 @@
+#!/bin/bash
+ping 10.12.255.255 -t 1
+arp -a
+
+# pinging the broadcast address (10.12.255.255) from 2a -> sends a query -> gets IPs -> these go into cache
+# arp -a command displays all active IP addresses connected to the local network (in cache after pinging)

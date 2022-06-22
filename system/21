@@ -1,0 +1,6 @@
+#!/bin/bash
+cat /etc/passwd | cut -d  ":" -f1,3 | egrep ':[0-9]{4}$' | cut -d  ":" -f1
+
+# human users have user IDs between 1000 and 9999.
+# egrep syntax {4} the preceding item is exactly matched n number of times
+# cat /etc/passwd | grep -d ':' -f1,3 | egrep ':[0-9]{4}$' to see ID

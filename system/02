@@ -1,0 +1,4 @@
+#!/bin/bash
+sudo hostname newname
+
+# if you want to change it permanently, use command: hostnamectl set-hostname

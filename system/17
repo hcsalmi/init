@@ -1,0 +1,6 @@
+#!/bin/bash
+ssh -p [Host port] [username in Debian(preceeding @-sign)]@[my Windows IP]
+
+# connecting my host machine (Windows laptop) to the virtual machine (Debian) running #inside the laptop OS.
+# https://www.youtube.com/watch?v=ErzhbUusgdI
+# also man ssh

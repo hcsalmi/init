@@ -1,0 +1,6 @@
+#!/bin/bash
+sudo service ssh stop
+
+# alternatively: sudo /etc/init.d/ssh stop
+# who command -> shows active SSH connections (get PID)
+# check that inactive/dead with sudo service ssh status

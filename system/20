@@ -1,0 +1,4 @@
+#!/bin/bash
+cat /etc/passwd | grep -d ':' -f1
+
+# or just cat /etc/passwd if you want more info (group id, home dir of user etc.)
