@@ -1,5 +1,8 @@
+Init
+
 A Hive Helsinki project, init, which introduces system and network commands, services used on a server machine and scripts that can be useful for SysAdmins on a daily basis.
 The following questions are answered in the files located inside the network, system and scripts folders.
+
 
 Network
 1. Get the list of the network interfaces of the machine without displaying any detail
@@ -22,6 +25,8 @@ device that makes the link between you (local network) and the outside world
 13. Thanks to the previous question and the reverse DNS find the name of your host
 14. What file contains the local DNS entries?
 15. Make the intra.42.fr address reroute to 46.19.122.85
+
+
 
 System
 1. In what file can you find the installed version of your Debian?
@@ -52,6 +57,8 @@ the graphic session)
 22. Find the command that add a new local user
 23. Explain how connect yourself as new user. (With graphic session and ssh session)
 24. Find the command that list all packages
+
+
 
 Scripting
 1. Write a script which displays only the login, UID and Path of each entry of the
