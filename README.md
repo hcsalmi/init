@@ -1,4 +1,4 @@
-Init
+# Init
 
 A Hive Helsinki project, init, which introduces system and network commands, services used on a server machine and scripts that can be useful for SysAdmins on a daily basis.
 The following questions are answered in the files located inside the network, system and scripts folders.
